@@ -1,0 +1,181 @@
+@import url(https://api.openweathermap.org/data/2.5/weather?q=pune&appid=846977e18020914feccaeae795a69dbc);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 54, 54);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 35%;
+
+} 
+.search{
+    border: none;
+    border-radius: 4px; 
+    overflow: hidden;
+}
+.search input{
+    border: none;
+    padding: 10px;
+}
+.search input:focus{
+    border: none;
+    outline: none;
+}
+.search-button{
+    text-decoration: none;
+    background-color: rgb(21, 158, 158);
+    border: none;
+    padding: 10px;
+    overflow: hidden; 
+}
+.search-button:hover{
+    background-color:rgb(11, 80, 80) ;
+}
+.widget{
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 35%;
+}
+.weatherIcon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.icon-large {
+    font-size: 48px;
+    color: #000000;
+}
+.weatherInfo{
+    display: flex;
+}
+.weather-div{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 50%;
+    width: fit-content;
+}
+.temperature{
+    font-size: 48px;
+    padding: 0 10px;
+}
+.description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.weatherCondition{
+    font-size: 25px;
+    padding: 0 10px;
+}
+.place{
+    padding: 0 10px;
+    font-size: 15px;
+}
+.date{
+    background-color: rgb(63, 211, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+.extra-temp{
+    display: flex;
+    background-color: rgb(177, 172, 172);
+    padding: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.two-sided-section{
+    display: flex;
+    width: 25%;
+
+}
+.extra-info-leftside{
+    font-size: 15px;
+
+}
+.two-sided-section i{
+    color: rgb(46, 143, 143);
+    font-size: 20px;
+    padding: 10px;
+}
+/* styles.css */
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 10% 30%; 
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search input {
+    border: none;
+    padding: 10px;
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    text-decoration: none;
+    background-color: rgb(21, 158, 158);
+    border: none;
+    padding: 10px;
+}
+
+.search-button:hover {
+    background-color: rgb(11, 80, 80);
+}
+
+.widget {
+    margin-top: 1rem;
+}
+
+.icon-large {
+    font-size: 48px;
+    color: #ccc;
+} */
+
+
